@@ -62,3 +62,15 @@ Después de publicar: verificar el dominio en Google Search Console, enviar `/si
 - `ProfilePage` para la página Sobre Nora.
 - `sitemap.xml` con `lastmod` e imágenes de cada página.
 - Sin cambios de copy visible, estructura de secciones ni CSS/UI.
+
+
+## SEO content cluster — 2026-08-16
+
+Se agregaron cinco páginas de intención específica sin cambiar el copy visible ni la UI de las páginas existentes:
+- coaching-personal.html
+- coaching-ejecutivo.html
+- liderazgo-consciente.html
+- coaching-para-empresas.html
+- talleres-y-conferencias.html
+
+La Home y Acompañamientos conservan exactamente su texto visible; solo se actualizaron hrefs para distribuir autoridad interna hacia las nuevas URLs. Sitemap actualizado.

@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://norabiderman-coaching.com/</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <image:image>
       <image:loc>https://norabiderman-coaching.com/assets/nora-biderman-home.webp</image:loc>
     </image:image>
@@ -31,7 +31,7 @@
   </url>
   <url>
     <loc>https://norabiderman-coaching.com/acompanamientos.html</loc>
-    <lastmod>2026-08-15</lastmod>
+    <lastmod>2026-08-16</lastmod>
     <image:image>
       <image:loc>https://norabiderman-coaching.com/assets/team-conversation.webp</image:loc>
     </image:image>
@@ -56,5 +56,40 @@
   <url>
     <loc>https://norabiderman-coaching.com/contacto.html</loc>
     <lastmod>2026-08-15</lastmod>
+  </url>
+  <url>
+    <loc>https://norabiderman-coaching.com/coaching-personal.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <image:image>
+      <image:loc>https://norabiderman-coaching.com/assets/coaching-dialogue.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norabiderman-coaching.com/coaching-ejecutivo.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <image:image>
+      <image:loc>https://norabiderman-coaching.com/assets/executive-conversation.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norabiderman-coaching.com/liderazgo-consciente.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <image:image>
+      <image:loc>https://norabiderman-coaching.com/assets/coaching-two-women.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norabiderman-coaching.com/coaching-para-empresas.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <image:image>
+      <image:loc>https://norabiderman-coaching.com/assets/team-conversation.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://norabiderman-coaching.com/talleres-y-conferencias.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <image:image>
+      <image:loc>https://norabiderman-coaching.com/assets/team-conversation.webp</image:loc>
+    </image:image>
   </url>
 </urlset>
