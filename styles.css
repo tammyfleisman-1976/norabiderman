@@ -253,10 +253,18 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 2rem); line-height: 1.15; letter-spacing: 
 }
 
 @media (max-width: 640px) {
-  .container { width: min(calc(100% - 28px), var(--max)); }
+  .container { width: min(calc(100% - 48px), var(--max)); }
   .section { padding: 82px 0; }
   .navbar { height: 74px; }
-  h1 { font-size: clamp(3.1rem, 17vw, 5rem); }
+  h1 { font-size: clamp(3rem, 15vw, 4.6rem); }
+  .inner-hero-grid > * { min-width: 0; }
+  .inner-hero h1 {
+    max-width: 100%;
+    font-size: clamp(2.85rem, 13.5vw, 4.15rem);
+    line-height: .96;
+    letter-spacing: -.055em;
+    overflow-wrap: break-word;
+  }
   h2 { font-size: clamp(2.25rem, 11vw, 3.7rem); }
   .hero { min-height: auto; padding-top: 120px; }
   .hero-grid { gap: 40px; }
