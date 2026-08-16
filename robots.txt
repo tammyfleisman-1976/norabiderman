@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://norabiderman-coaching.com/sitemap.xml

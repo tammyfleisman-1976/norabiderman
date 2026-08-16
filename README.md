@@ -42,3 +42,23 @@ Las fotografías están incluidas dentro del proyecto, por lo que se visualizan 
 - Escena de coaching ejecutivo: Lead Strong Coaching Services.
 - Escena de escucha: International Coaching Federation.
 - Escena de equipo: Phoenix Wellness Consulting.
+
+## SEO técnico — actualización 2026-08-15
+- Canonical URL, robots meta, Open Graph y Twitter Cards en todas las páginas.
+- JSON-LD con WebSite, Person, WebPage/CollectionPage/AboutPage/ContactPage, breadcrumbs y Service donde corresponde.
+- `robots.txt` y `sitemap.xml` en la raíz.
+- Títulos y meta descriptions específicos por intención de página.
+- Dimensiones, lazy loading/decoding y prioridad de carga en imágenes para reducir layout shift y favorecer LCP.
+- Google Fonts cargada desde `<head>` en lugar de `@import`, sin cambiar tipografía ni diseño.
+
+Después de publicar: verificar el dominio en Google Search Console, enviar `/sitemap.xml` y solicitar reindexación de las páginas principales.
+
+## Segunda optimización técnica
+
+- Recompresión WebP de alta calidad de las imágenes fotográficas pesadas, conservando resolución y encuadre.
+- Variantes responsivas de 480 px y 768 px con `srcset` + `sizes`.
+- Preload responsivo (`imagesrcset`/`imagesizes`) para las imágenes LCP.
+- Metadatos Open Graph con dimensiones y tipo MIME de imagen.
+- `ProfilePage` para la página Sobre Nora.
+- `sitemap.xml` con `lastmod` e imágenes de cada página.
+- Sin cambios de copy visible, estructura de secciones ni CSS/UI.
