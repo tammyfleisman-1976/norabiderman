@@ -274,10 +274,21 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 2rem); line-height: 1.15; letter-spacing: 
   .hero-note { width: 170px; padding: 18px; font-size: .72rem; }
   .hero-note strong { font-size: 2rem; }
   .section-head { align-items: flex-start; flex-direction: column; }
-  /* Mobile stacking fix: decorative service orb stays behind card copy */
-  .service-card { isolation: isolate; }
-  .service-card .service-orb { z-index: 0; pointer-events: none; }
-  .service-card > *:not(.service-orb) { position: relative; z-index: 1; }
+  /* Mobile stacking fix: decorative service orb always stays behind card copy */
+  .service-card {
+    isolation: isolate;
+  }
+  .service-card .service-orb {
+    z-index: 0 !important;
+    pointer-events: none;
+  }
+  .service-card .num,
+  .service-card h3,
+  .service-card p,
+  .service-card .text-link {
+    position: relative;
+    z-index: 5 !important;
+  }
   .method-grid, .process-steps, .reflection-grid, .article-list, .principles-grid, .form-row { grid-template-columns: 1fr; }
   .method-card, .method-card:nth-child(2) { border-right: 0; border-bottom: 1px solid rgba(246,242,232,.2); }
   .principle:nth-child(odd) { border-right: 0; }
